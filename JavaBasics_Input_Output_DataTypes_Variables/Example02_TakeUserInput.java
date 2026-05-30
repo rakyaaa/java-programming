@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Example2_TakeUserInput {
+public class Example02_TakeUserInput {
     //To take the User input, We use the scanner class and System.in method
 
     public static void main(String[] args) {

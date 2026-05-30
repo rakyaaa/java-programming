@@ -1,4 +1,4 @@
-public class Example8_ArithmeticOperations {
+public class Example08_ArithmeticOperations {
     public static void main(String[] args) {
         int n1 = 10;
         int n2 = 5;

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class Example3_AddTwoNumbers{
+class Example03_AddTwoNumbers{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter First Number:- ");

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Example4_SwapTwoNumbers {
+public class Example04_SwapTwoNumbers {
     
     public static void swapTwoNumbersUsingThridVariable(int n1, int n2){
         int temp = n1;
@@ -18,6 +18,14 @@ public class Example4_SwapTwoNumbers {
         System.out.println("Second Number:- "+ n2);
     }
 
+    public static void swapTwoNumberswithoutArithmeticOperator(int n1, int n2){
+        n1 = n1 ^ n2;
+        n2 = n1 ^ n2;
+        n1 = n1 ^ n2;
+        System.out.println("First Number:- " + n1);
+        System.out.println("Second Number:- "+ n2);
+    }
+
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -27,6 +35,7 @@ public class Example4_SwapTwoNumbers {
         int b = sc.nextInt();
         swapTwoNumbersUsingThridVariable(a, b);
         swapTwoNumberswithoutThridVariable(a, b);
+        swapTwoNumberswithoutArithmeticOperator(a,b);
         sc.close();
     }
 }
