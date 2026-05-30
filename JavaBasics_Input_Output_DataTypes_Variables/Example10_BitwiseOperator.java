@@ -1,4 +1,4 @@
-public class Example10_BitwiseOperatot {
+public class Example10_BitwiseOperator {
     public static void main(String[] args) {
         
         int a = 10;
