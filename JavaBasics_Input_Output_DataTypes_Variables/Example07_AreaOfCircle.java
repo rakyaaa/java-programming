@@ -1,4 +1,4 @@
-public class Example7_AreaOfCircle {
+public class Example07_AreaOfCircle {
     
     public static void main(String[] args) {
         int radius = 10;

@@ -1,4 +1,4 @@
-public class Example9_LogicalOperations {
+public class Example09_LogicalOperations {
      public static void main(String[] args) {
         
         int a = 10;

@@ -1,4 +1,4 @@
-public class Example6_CalculateSimpleInterest {
+public class Example06_CalculateSimpleInterest {
     
     public static void main(String[] args) {
         

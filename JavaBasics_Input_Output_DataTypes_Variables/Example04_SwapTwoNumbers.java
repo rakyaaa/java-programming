@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Example4_SwapTwoNumbers {
+public class Example04_SwapTwoNumbers {
     
     public static void swapTwoNumbersUsingThridVariable(int n1, int n2){
         int temp = n1;

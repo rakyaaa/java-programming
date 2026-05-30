@@ -1,4 +1,4 @@
-public class Example5_FindASCIIValueOfChars {
+public class Example05_FindASCIIValueOfChars {
     
     public static void main(String[] args) {
         
