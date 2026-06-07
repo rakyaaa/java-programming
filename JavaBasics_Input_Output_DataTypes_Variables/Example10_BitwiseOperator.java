@@ -29,13 +29,13 @@ public class Example10_BitwiseOperator {
         System.out.println("a Bitwise XOR f:- " + (a^a));
         System.out.println("a Bitwise XOR f:- " + (a^b));
         System.out.println("a Bitwise XOR f:- " + (a^b^c^d^e));
-        //Bitwise Right Shift << , Shift the bits to right, i,e 101 becomes 1010 if we do 1 bits
+        //Bitwise Left Shift << , Shift the bits to Left, i,e 101 becomes 1010 if we do 1 bits
         //This also becomes multiplication by 2
         System.out.println("Bitwise 1 << of b:- " + (b<<1));
         //We can do it multiple bits as well, as below
         System.out.println("Bitwise 2 << of b:- " + (b<<2));
         System.out.println("Bitwise 3 << of b:- " + (b<<3));
-        //Bitwise Left shift >> does the shifting of the bits to the left side
+        //Bitwise Right shift >> does the shifting of the bits to the Right side
         //This also becomes division by 2
         System.out.println("Bitwise 1 >> of a:- " + (a>>1));
         System.out.println("Bitwise 2 >> of a:- " + (a>>2));
